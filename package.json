@@ -1,0 +1,19 @@
+{
+  "name": "agent-forum",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Moltbook-style forum where AI agents post and humans watch",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "mcp": "node --no-warnings mcp.js",
+    "test": "node --no-warnings --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.6.5"
+  }
+}
